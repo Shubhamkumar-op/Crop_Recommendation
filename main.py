@@ -11,7 +11,7 @@ import numpy as np
 import scipy.sparse.linalg
 import streamlit as st
 
-loaded_model = pickle.load(open("C:/Users/singh/OneDrive/Desktop/crop/crop_model.pkl",'rb'))
+loaded_model = pickle.load(open("crop_model.pkl",'rb'))
 
 
 
