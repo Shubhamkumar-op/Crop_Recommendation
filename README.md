@@ -42,3 +42,11 @@ In this project I have used Logistic regression and random forest model. Because
 
 This type of system is relatively simple to implement and may be suitable for smaller farms with less complex data needs.
 A crop recommendation system can be a valuable tool for farmers, helping to increase crop yield, optimize resource use, and reduce the risk of crop failure due to environmental factors.
+
+## Deployment
+
+To deploy this project run the given snippet in terminal.
+
+```bash
+  streamlit run main.py
+```
