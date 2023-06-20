@@ -12,8 +12,8 @@ import scipy.sparse.linalg
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-loaded_model = pickle.load(open("C:/Users/singh/OneDrive/Desktop/crop/crop_model.pkl",'rb'))
-soil_model = pickle.load(open("C:/Users/singh/OneDrive/Desktop/crop/soil_fertility.pkl",'rb'))
+loaded_model = pickle.load(open("crop_model.pkl",'rb'))
+soil_model = pickle.load(open("soil_fertility.pkl",'rb'))
 
 
 with st.sidebar:
